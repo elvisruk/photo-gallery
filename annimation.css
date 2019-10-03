@@ -1,0 +1,100 @@
+ol{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: Lobster;
+	color: white;
+	display: flex;
+}
+h1{
+	font-family: Lobster;
+	text-align: center;
+	color: green;
+}
+img{
+  width:150px;
+  height:250px;
+  border-style: inset;
+}
+body{
+	margin-top: 40px;
+	text-align: center;
+	color: #000;
+	font-family: Lobster;
+	background-image: url(11.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.menu{
+	display: inline-block;
+	background:rgba(0,0,0,0.5);
+}
+.menu .btn{
+	display: inline-block;
+	font-family: Lobster;
+	font-size: 22px;
+	float: left;
+	color: #fff;
+	padding: 8px 12px;
+}
+.menu .fa{
+	background-color: #000;
+	color: #fff;
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.btn :hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: #333;
+}
+a{
+	color: red;
+}
+.btn::before{
+	position: absolute;
+	width: 120%;
+	height:120%;
+	background: #3498db;
+	transform: rotate(45 deg);
+	left: 110%
+	top: 90%;
+}
+.btn{
+	line-height: 90px;
+	font-size: 26px;
+	transition: 0.25 linear;
+}
+.nine{
+	float: left;
+	text-align: center;
+	background-color: red;
+	display: flex;
+	shape-margin: 578%;
+	}
+	.tmt{
+		text-align: center;
+		float: 700px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
